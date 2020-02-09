@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Formular</title>
+  <script src="formular.js" defer></script>
+</head>
+<body>
+  
+  <div class="wrapper">
+      <form action="" class='form-area'>
+        <div class="picture-area">
+          <img src="https://picsum.photos/200/300" alt="https://picsum.photos/200/300">
+        </div>
+        <div class="details-area">
+            <p><input type="text" name="First name" placeholder="First name" class="js-required" class="fName"></p>
+            <p><input type="text" name="Last name" placeholder="Last name"  class="js-required" class="lName"></p>
+
+
+            <div class="gender">
+              <p>
+                Gender:
+                <br>
+                <label><input type="radio" name="gender" value="m">M</label>
+                <br>
+                <label><input type="radio" name="gender" value="f">F</label>
+              </p>
+              <p><textarea name="bio" cols="50" rows="5" class="js-required" class="tArea"></textarea></p>
+              
+              <p>
+                <button type="submit" class="js-sub">Submit</button>
+              </p>
+          </div>
+        </div>
+      </form>
+  </div>
+</body>
+</html>
